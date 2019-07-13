@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "AutomatedOrderSubmission",
+    "packageName": "com.pep.int",
+    "packageFolder": "com/pep/int",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "MDAxOTMyMmI3M2NmOTY3MmI2OTQ5Y2QwOWQwZjBhMDcwZTA0NWJkMGJkMDZiMjRjZTQ0ZDg5YTc4ZjVhMGFkZTRlOWEzYWQ5MmQwMzUyMTZmYzMxYjMwY2UwZmU4ZGRiOWI1MDE2Nzg2NDlkYjQxZmQxNDFlM2EwZDdlZTc2ZmI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "raviebh",
+  "repository-name": "automated-order-application"
+}
